@@ -1,0 +1,89 @@
+.app {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1,
+h2,
+h3 {
+  color: #333;
+}
+
+.header {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.header a {
+  text-decoration: none;
+  background-color: #534c42;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.header a:hover {
+  background-color: #9d935e;
+  color: black;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+input,
+select,
+button {
+  margin: 5px;
+  padding: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1b2530;
+}
+
+.dashboard {
+  margin-bottom: 20px;
+}
+
+.th{
+  background-color: #534c42;
+  color: #ddd;
+}
+.header {
+    display: flex;
+    justify-content: space-around; /* Evenly spaces out the links */
+    align-items: center;
+    padding: 10px;
+    background-color: #f5f5f5; /* Adjust background color as needed */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-link {
+    text-decoration: none;
+    color: #333; /* Adjust link color */
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: color 0.3s ease;
+}
+
+.header-link:hover {
+    color: #007bff; /* Change link color on hover */
+}
